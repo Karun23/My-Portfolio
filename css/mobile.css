@@ -1,0 +1,16 @@
+body {
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer"
+        "form"
+        "echo"
+        ;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content auto max-content;
+}
+
+header, nav, main, footer {
+    margin: 0 1em;
+}

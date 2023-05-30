@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 80px;
+}
+
+aside {
+    align-items: flex-start; 
+    display: flex; 
+    justify-content: flex-end; 
+    
+  }
+
+  hr {
+    border-width: 2px;
+  }
+
+
+ 
+.home-button {
+    
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    margin-top: 20px;
+    margin-right: 20px; 
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #000; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+  }
+  
+  
+  .home-button:hover {
+    opacity: 0.8; 
+  }
+
+
+  label {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+  
+  select {
+    position: absolute;
+    top: 40px;
+    left: 85px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  
+  select:focus {
+    outline: none;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+
+
+  
+  #logout-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  
+  #logout-btn:hover {
+    background-color: grey;
+  }
+
+  .add-post-button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+  
+  .add-post-button :hover {
+    
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+
+  
+  
+  
+
+  

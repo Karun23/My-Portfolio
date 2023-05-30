@@ -1,0 +1,279 @@
+body {
+    background-color: #080808;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20pt;
+    padding: 5px;
+    border-spacing: 10pt;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:6;
+    list-style: none;
+    
+    
+}
+
+header li {
+    margin: 0 10px;
+  }
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 18px;
+    background-color: #080808;
+
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px; 
+  }
+
+  h1 {
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: 510;
+  }
+  ul{
+    list-style: none;
+  }
+
+
+  nav ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    position: relative;
+  }
+
+  nav ul li a::after{
+
+    content: "";
+    width: 0;
+    height:  3px;
+    background-color:darkblue;
+    position: absolute;
+    left: -2;
+    bottom: -6px;
+  }
+  
+  nav ul li a:hover::after{
+
+    content: "";
+    width: 100%;
+    height:  3px;
+    background-color:darkblue;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+
+  #background { 
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  main {
+    background-color: #eee;
+    flex: 1; 
+  }
+
+  h2 {
+    color: #eee;
+    padding-left: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Aboutme {
+    padding: 80px 0;
+    color: white;
+    
+  }
+  #Aboutme ,h2 {
+    text-align: center;
+    color: white;
+    
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .column-1 {
+    flex-basis: 35%;
+
+  }
+
+  .column-1 img{
+    flex-basis: 35%;
+    width: 100%;
+    border-radius: 30px;
+    
+  }
+
+  .column-2 {
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+
+
+
+  #Experience {
+    padding: 80px 0;
+    color: white;
+    background-color: #080808;
+    
+  }
+
+  
+
+  #Education {
+    padding: 80px 0;
+    color: white;
+    background-color: #080808;
+    
+  }
+
+  #Education .column-1 {
+    padding: 80px 0;
+    color: white;
+    background-color: #080808;
+    padding-left: 10px;
+    
+  }
+
+  #Education .column-2 {
+    padding: 80px 0;
+    color: white;
+    background-color: #080808;
+    padding-left: 10px;
+    
+  }
+
+
+  #Education h2 {
+    text-align: center;
+    
+    
+  }
+
+  .main-text h1 {
+    
+    margin-top: 20%;
+    
+  }
+
+  .main-text h1 {
+    margin-top: 20%;
+    font-size: 60pt;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .login-button {
+    background-color: transparent;
+    color: white;
+    padding: 10pt 20pt;
+    border: 2pt solid white;
+    border-radius: 5pt;
+    cursor: pointer;
+    font-size: 16pt;
+    margin-top: 20pt;
+    margin-left: 900px;
+
+}
+  
+.login-container h1 {
+  font-size: 40pt;
+  margin-bottom: 30pt;
+  color: white;
+  background-color: red;
+}
+
+
+a {
+  text-decoration: none;
+    color: white;
+    
+}
+
+#aboutme p {
+  font-size: 18pt;
+  
+}
+
+
+p{
+  font-family: 'Mukta', sans-serif;
+  font-weight:bold ;
+}
+
+header h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 25pt;
+  
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#logout-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#logout-btn:hover {
+  background-color: white;
+}
+
+

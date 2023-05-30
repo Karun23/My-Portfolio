@@ -1,0 +1,91 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+.education, .skills {
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+}
+
+.education {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.skills {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+h2, h1 {
+	margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+	margin-bottom: 8px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main:hover {
+    border:3px solid white;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+}
+
+
+h2, h1 {
+    font-family: 'Lilita One', cursive;
+}
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    border: 2px solid #333333;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+ 
+
+  main {
+	margin-top: 150px;
+  }
+
+  footer {
+	margin-top: 410px;
+	text-align: center;
+  }
+
